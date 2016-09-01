@@ -1,0 +1,26 @@
+{
+  "name": "clear-build",
+  "version": "1.0.0",
+  "description": "Remove build directory and any build .zip files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b40houghton/clear-build.git"
+  },
+  "keywords": [
+    "build",
+    "clear"
+  ],
+  "author": "Brandon Houghton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b40houghton/clear-build/issues"
+  },
+  "homepage": "https://github.com/b40houghton/clear-build#readme",
+  "dependencies": {
+    "rimraf": "^2.5.4"
+  }
+}
