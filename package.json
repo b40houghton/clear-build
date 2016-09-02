@@ -1,6 +1,6 @@
 {
   "name": "clear-build",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Remove build directory and any build .zip files",
   "main": "index.js",
   "scripts": {
