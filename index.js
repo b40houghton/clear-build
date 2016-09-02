@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 
 var rmdir = require('rimraf');
-var buildDirectoryGlob = '../../build';
-var buildFileGlob = '../../*(build)*.zip';
+var buildDirectoryGlob = './build';
+var buildFileGlob = './*(build)*.zip';
 
 function removeBuildDirectory() {
 	rmdir(buildDirectoryGlob, function () {

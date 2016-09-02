@@ -1,6 +1,6 @@
 {
   "name": "clear-build",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Remove build directory and any build .zip files",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "Brandon Houghton",
   "license": "MIT",
   "bin":{
-    "build-clear":"./index.js"
+    "clear-build":"./index.js"
   },
   "bugs": {
     "url": "https://github.com/b40houghton/clear-build/issues"
